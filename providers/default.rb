@@ -40,6 +40,14 @@ action :force_deploy do
 
 end
 
+action :setup do
+
+  before_compile
+
+  before_deploy
+
+end
+
 action :restart do
 
   before_compile

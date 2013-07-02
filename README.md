@@ -60,6 +60,8 @@ more documentation.
 - `:force_deploy`: same as `:deploy`, but it will send a `:force_deploy`
   action to the deploy resource, directing it to deploy the
   application even if the same revision is already deployed
+- `:setup`: setup and the application, preparing the directory
+  structure and initializing any services
 
 # Attribute Parameters
 
